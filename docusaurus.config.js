@@ -66,39 +66,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Roadmap',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Communauté',
-            items: [
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/yOyO38',
-              },
-            ],
-          },
-          {
-            title: 'Bonus',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/yoanbernabeu/Roadmap-Dev-Symfony',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} | Roadmap Dev Symfony | Une Roadmap collaborative pour devenir un⸱e dev Symfony !`,
       },
       prism: {
