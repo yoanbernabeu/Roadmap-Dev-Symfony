@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/blog</id>
+    <title>Roadmap Dev Symfony Blog</title>
+    <updated>2021-11-08T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/blog"/>
+    <subtitle>Roadmap Dev Symfony Blog</subtitle>
+    <icon>https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hey, les copains et copines]]></title>
+        <id>les-copains-et-copines</id>
+        <link href="https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/blog/les-copains-et-copines"/>
+        <updated>2021-11-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[L'article ci-dessous est à l'origine un fil Twitter. Pour le rendre cohérent, il a été très légèrement modifié.]]></summary>
+        <content type="html"><![CDATA[<p>:::info Publié intitialement sur twitter
+L&#x27;article ci-dessous est à l&#x27;origine un fil Twitter. Pour le rendre cohérent, il a été très légèrement modifié.</p><p>Il est consultable en <a href="https://twitter.com/yOyO38/status/1457379362555236359">suivant ce lien</a>.
+:::</p><p>👉 Hey, les copains et copines dev (Symfony mais pas que) une question pour vous 😉</p><p>Est-ce que cela vous semble une bonne idée de construire (de manière collaborative) une Roadmap pour celles et ceux qui souhaiteraient devenir dev (Symfony) ?</p><p>💡 <strong>Mon idée</strong> : Construire un minisite avec une roadmap pour devenir dev Symfony.</p><p>Pour chacune des étapes, nous pourrions proposer des ressources (si possible francophone) disponibles sur le web pour que chacun.e puissent se former gratuitement.</p><p>🔎 <strong>Mon constat</strong> : Les formations disponibles (gratuite ou payante) ne sont pas complète, et surtout font souvent l&#x27;impasse sur une formation généraliste sur l&#x27;informatique, les réseaux, internet...</p><p>De mon point de vue, avoir des bases, même minimaliste des grands principes de l&#x27;informatique, des réseaux et de l&#x27;internet permet aux développeurs et développeuses d&#x27;être meilleur et de mieux comprendre les tenants et les aboutissants !</p><p>🛠 <strong>Comment</strong> ? Afin de rester simple et de permettre un fonctionnement collaboratif, je vais probablement utiliser
+<a href="https://docusaurus.io/">docusaurus</a> sur ce dépôt GitHub.</p><p>Je vais bosser dessus cette semaine, je lancerais l&#x27;affaire publiquement probablement samedi prochain 🚀</p><p>🙏 Vous voulez être de l&#x27;aventure ?
+Venez dans les <a href="https://github.com/yoanbernabeu/Roadmap-Dev-Symfony/issues">issues du dépot</a>, on en discute ❤</p>]]></content>
+        <author>
+            <name>Yoan Bernabeu</name>
+            <uri>https://github.com/yoanbernabeu</uri>
+        </author>
+    </entry>
+</feed>

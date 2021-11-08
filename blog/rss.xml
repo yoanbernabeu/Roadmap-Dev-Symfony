@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Roadmap Dev Symfony Blog</title>
+        <link>https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/blog</link>
+        <description>Roadmap Dev Symfony Blog</description>
+        <lastBuildDate>Mon, 08 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hey, les copains et copines]]></title>
+            <link>https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/blog/les-copains-et-copines</link>
+            <guid>les-copains-et-copines</guid>
+            <pubDate>Mon, 08 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[L'article ci-dessous est à l'origine un fil Twitter. Pour le rendre cohérent, il a été très légèrement modifié.]]></description>
+            <content:encoded><![CDATA[<p>:::info Publié intitialement sur twitter
+L&#x27;article ci-dessous est à l&#x27;origine un fil Twitter. Pour le rendre cohérent, il a été très légèrement modifié.</p><p>Il est consultable en <a href="https://twitter.com/yOyO38/status/1457379362555236359">suivant ce lien</a>.
+:::</p><p>👉 Hey, les copains et copines dev (Symfony mais pas que) une question pour vous 😉</p><p>Est-ce que cela vous semble une bonne idée de construire (de manière collaborative) une Roadmap pour celles et ceux qui souhaiteraient devenir dev (Symfony) ?</p><p>💡 <strong>Mon idée</strong> : Construire un minisite avec une roadmap pour devenir dev Symfony.</p><p>Pour chacune des étapes, nous pourrions proposer des ressources (si possible francophone) disponibles sur le web pour que chacun.e puissent se former gratuitement.</p><p>🔎 <strong>Mon constat</strong> : Les formations disponibles (gratuite ou payante) ne sont pas complète, et surtout font souvent l&#x27;impasse sur une formation généraliste sur l&#x27;informatique, les réseaux, internet...</p><p>De mon point de vue, avoir des bases, même minimaliste des grands principes de l&#x27;informatique, des réseaux et de l&#x27;internet permet aux développeurs et développeuses d&#x27;être meilleur et de mieux comprendre les tenants et les aboutissants !</p><p>🛠 <strong>Comment</strong> ? Afin de rester simple et de permettre un fonctionnement collaboratif, je vais probablement utiliser
+<a href="https://docusaurus.io/">docusaurus</a> sur ce dépôt GitHub.</p><p>Je vais bosser dessus cette semaine, je lancerais l&#x27;affaire publiquement probablement samedi prochain 🚀</p><p>🙏 Vous voulez être de l&#x27;aventure ?
+Venez dans les <a href="https://github.com/yoanbernabeu/Roadmap-Dev-Symfony/issues">issues du dépot</a>, on en discute ❤</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

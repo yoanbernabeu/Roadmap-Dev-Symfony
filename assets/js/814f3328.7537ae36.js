@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkroadmap_symfony=self.webpackChunkroadmap_symfony||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Hey, les copains et copines","permalink":"/Roadmap-Dev-Symfony/blog/les-copains-et-copines"}]}')}}]);
