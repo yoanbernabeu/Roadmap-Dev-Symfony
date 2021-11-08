@@ -1,0 +1,11 @@
+---
+sidebar_position: 1
+---
+
+# Mise en ligne
+
+Pour créer un site internet, il n'est pas nécessaire d'être connecté à internet, compte tenu du fait qu'il s'agit uniquement dans un premier temps de créer les fichiers HTML et les images.
+
+Toutefois, lorsque le site web est prêt à être vu par des visiteurs, il est essentiel de le mettre en ligne, c'est-à-dire de transférer (copier) les fichiers de votre ordinateur sur le serveur.
+
+Pour ce faire il est alors essentiel de se connecter à internet, puis d'envoyer les pages sur le serveur à l'aide d'un client FTP (un logiciel de transfert de fichiers).
