@@ -8,13 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Roadmap Dev Symfony',
   tagline: 'Une Roadmap collaborative pour devenir un⸱e dev Symfony !',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://yoanbernabeu.github.io/',
+  baseUrl: '/Roadmap-Dev-Symfony/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'yoanbernabeu', // Usually your GitHub org/user name.
   projectName: 'Roadmap-Dev-Symfony', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   presets: [
     [
