@@ -2,34 +2,20 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Présentation de la Roadmap
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Une Roadmap, pourquoi faire ?
 
-## Getting Started
+Texte à écrire.
 
-Get started by **creating a new site**.
+## Comment fonctionne notre Roadmap ?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Texte à écrire.
 
-## Generate a new site
+## Qui à construit cette Roadmap ?
 
-Generate a new Docusaurus site using the **classic template**:
+Texte à écrire
 
-```shell
-npm init docusaurus@latest my-website classic
-```
+## Comment contribuer à cette Roadmap ?
 
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+Texte à écrire

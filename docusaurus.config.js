@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Roadmap Dev Symfony',
+  tagline: 'Une Roadmap collaborative pour devenir un⸱e dev Symfony !',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'yoanbernabeu', // Usually your GitHub org/user name.
+  projectName: 'Roadmap-Dev-Symfony', // Usually your repo name.
 
   presets: [
     [
@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/yoanbernabeu/Roadmap-Dev-Symfony/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/yoanbernabeu/Roadmap-Dev-Symfony/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Roadmap Dev Symfony',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Roadmap Dev Symfony',
           src: 'img/logo.svg',
         },
         items: [
@@ -53,11 +53,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Roadmap',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/yoanbernabeu/Roadmap-Dev-Symfony',
             label: 'GitHub',
             position: 'right',
           },
@@ -70,30 +70,22 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Roadmap',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Communauté',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/yOyO38',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Bonus',
             items: [
               {
                 label: 'Blog',
@@ -101,12 +93,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/yoanbernabeu/Roadmap-Dev-Symfony',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} | Roadmap Dev Symfony | Une Roadmap collaborative pour devenir un⸱e dev Symfony !`,
       },
       prism: {
         theme: lightCodeTheme,

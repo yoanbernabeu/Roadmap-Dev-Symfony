@@ -4,32 +4,30 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Une Roadmap ?',
+    Svg: require('../../static/img/map.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Une Roadmap est une proposition de "cursus" ou de "parcours" à suivre afin d'arriver à un objectif.
+        Cette Roadmap à été construite de manière collaborative.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Etape par étape !',
+    Svg: require('../../static/img/step.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        L'objectif de notre Roadmap est de vous proposer des étapes qui vous permettent d'atteindre progressivement votre objectif.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Devient un⸱e dev Symfony !',
+    Svg: require('../../static/img/dev.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Avec cette Roadmap vous devriez etre en mesure de devenir un développeur Symfony avec toutes les bases necessaire pour concevoir des applications complèxes !
       </>
     ),
   },

@@ -1,33 +1,34 @@
-# Website
+# Roadmap Dev Symfony
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Une Roadmap collaborative pour devenir un⸱e dev Symfony !
 
-### Installation
+Ce site web est construit avec [Docusaurus 2](https://docusaurus.io/).
+
+## Prérequis
+
+Node.js version >= 14 ou supérieure (qui peut être vérifiée en exécutant node -v).
+
+*Vous pouvez utiliser nvm pour gérer plusieurs versions de Node sur une seule machine installée*
+
+## Installation
 
 ```
-$ yarn
+$ npm install
 ```
 
-### Local Development
+## Local Development
 
 ```
-$ yarn start
+$ npm start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+## Build
 
 ```
-$ yarn build
+$ npm build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+cette commande génére une verison statique du site dans un répértoire `build`.
+C'est cette version qui est publiée.
