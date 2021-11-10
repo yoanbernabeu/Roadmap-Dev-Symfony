@@ -4,9 +4,9 @@ sidebar_position: 2
 
 # Un ordinateur ?
 
-Au coeur de notre utilisation de l'informatique, il trône sur nos bureau, il est notre outil de travail, l'ordinateur est un élément important de notre quotidient, et encore plus dans notre quotidien de dev !
+Au coeur de notre utilisation de l'informatique, il trône sur nos bureaux, il est notre outil de travail, l'ordinateur est un élément important de notre quotidien, et encore plus dans notre quotidien de dev !
 
-En comprendre, succintement et en synthèse, son mode de fonctionnement reste des connaissances très utile 😀
+En comprendre, succinctement et en synthèse, son mode de fonctionnement reste des connaissances très utiles 😀
 
 ## Ressources
 
