@@ -22,7 +22,7 @@ Il y a pleins de possibilités pour contribuer au projet :
 * Ajouter un lien vers une ressource
 * etc
 
-*Nous attirons votre attention : **notre roadmap n'a pas vocation à dispenser du contenu** pédagogique (cours, tutos, etc ...), mais seulement à **rediriger vers du contenu dèja existant**. Notre plus-value est de **proposer un chemin d'apprentissage** complet et cohérent.*
+*Nous attirons votre attention : **notre roadmap n'a pas vocation à dispenser du contenu** pédagogique (cours, tutos, etc ...), mais seulement à **rediriger vers du contenu déjà existant**. Notre plus-value est de **proposer un chemin d'apprentissage** complet et cohérent.*
 
 ### Comment faire ?
 
@@ -34,9 +34,9 @@ En synthèse, les étapes pour contribuer :
 * Réaliser vos ajouts, modifications ou corrections, si possible dans **une et une** seule thématique
 * Soumettre vos modifications via une **Pull Request**
 
-Vos modifications serons **review** par la communauté, et eventuellement intégrées dans la branche **main**.
+Vos modifications seront **review** par la communauté, et eventuellement intégrées dans la branche **main**.
 
-Dans un second temps, la branche **main** sera mergée dans la branche **documentation**, ce qui aura pour effet de déclancher la pipeline de déploiement de la version disponible à cette adresse : [https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/](https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/)
+Dans un second temps, la branche **main** sera mergée dans la branche **documentation**, ce qui aura pour effet de déclencher la pipeline de déploiement de la version disponible à cette adresse : [https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/](https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/)
 
 ## 🚴‍♀️ Lancer le projet en local
 
@@ -44,7 +44,7 @@ Dans un second temps, la branche **main** sera mergée dans la branche **documen
 
 Node.js version >= 14 ou supérieure (qui peut être vérifiée en exécutant node -v).
 
-*Vous pouvez utiliser nvm pour gérer plusieurs versions de Node sur une seule machine installée*
+*Vous pouvez utiliser [nvm](https://github.com/nvm-sh/nvm) pour gérer plusieurs versions de Node sur une seule machine installée*
 
 ### Installation
 
@@ -64,4 +64,4 @@ $ npm start
 $ npm run build
 ```
 
-cette commande génére une verison statique du site dans un répértoire `build`.
+cette commande génère une version statique du site dans un répertoire `build`.
