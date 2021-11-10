@@ -4,11 +4,11 @@ sidebar_position: 3
 
 # Les bases du réseau
 
-Que serait notre monde sans les réseaux ? Il serait probablement totalement differend !
+Que serait notre monde sans les réseaux ? Il serait probablement totalement différent !
 
-Dans tous les cas, aujourd'hui sans les réseaux, rien de ce que l'on connais aujourd'hui, et en partculier dans nos applications Web n'existerait.
+Dans tous les cas, aujourd'hui sans les réseaux, rien de ce que l'on connaît aujourd'hui, et en particulier dans nos applications Web n'existerait.
 
-Le réseau est un élément essentiel que tous developpeurs devraient connaitre, et en particulier pour les developpeurs Backend.
+Le réseau est un élément essentiel que tous développeurs devraient connaitre, et en particulier pour les développeurs Backend.
 
 ## Ressources
 
