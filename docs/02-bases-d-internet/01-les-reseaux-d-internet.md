@@ -16,3 +16,5 @@ Prenonnez le temps de (re)découvrir l'histoire d'internet de et de ces réseaux
 * [Vidéo- Du télégraphe à Internet : l'incroyable histoire des câbles sous-marins](https://www.youtube.com/watch?v=j07V-P7-MBo)
 
 * [Vidéo - Internet, histoire d'une révolution](https://www.youtube.com/watch?v=5kXKPCqRbRI)
+
+* [Texte - Les réseaux de zéro](https://zestedesavoir.com/tutoriels/2789/les-reseaux-de-zero/)
