@@ -43,13 +43,6 @@ Nous allons avoir la possibilité de faire des requêtes à notre API en utilisa
 Pour voir nos requetes nous allons utiliser un logiciel [postman](https://www.getpostman.com/), nous pouvons aussi utiliser une extention sur VSCode. 
 Moi j'utilise [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
---- 
-
-🏠 [Main Menu](README.md)
-
-# Author
-
-👤 [Anthony Gorski](https://twitter.com/Gorski_anthony)
 
 
 
