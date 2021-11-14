@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkroadmap_symfony=self.webpackChunkroadmap_symfony||[]).push([[9915],{7215:function(a){a.exports=JSON.parse('{"/Roadmap-Dev-Symfony/blog/tags/actualite":{"allTagsPath":"/Roadmap-Dev-Symfony/blog/tags","slug":"/Roadmap-Dev-Symfony/blog/tags/actualite","name":"actualit\xe9","count":1,"permalink":"/Roadmap-Dev-Symfony/blog/tags/actualite"}}')}}]);
