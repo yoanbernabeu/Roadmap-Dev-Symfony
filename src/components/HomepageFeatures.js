@@ -9,12 +9,12 @@ const FeatureList = [
     description: (
       <>
         Une Roadmap est une proposition de "cursus" ou de "parcours" à suivre afin d'arriver à un objectif.
-        Cette Roadmap à été construite de manière collaborative.
+        Cette Roadmap a été construite de manière collaborative.
       </>
     ),
   },
   {
-    title: 'Etape par étape !',
+    title: 'Étape par étape !',
     Svg: require('../../static/img/step.svg').default,
     description: (
       <>
@@ -23,11 +23,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Devient un⸱e dev Symfony !',
+    title: 'Deviens un⸱e dev Symfony !',
     Svg: require('../../static/img/dev.svg').default,
     description: (
       <>
-        Avec cette Roadmap vous devriez etre en mesure de devenir un développeur Symfony avec toutes les bases necessaire pour concevoir des applications complèxes !
+        Avec cette Roadmap vous devriez être en mesure de devenir un développeur Symfony avec toutes les bases nécessaires pour concevoir des applications complexes !
       </>
     ),
   },
