@@ -4,11 +4,11 @@ sidebar_position: 4
 
 # TCP/IP
 
-Sur Internet, de nombreux protocoles sont utilisés, ils font partie d'une suite de protocoles qui s'appelle TCP/IP. 
-
-TCP/IP est basé sur le repérage de chaque ordinateur par une adresse appelée adresse IP qui permet d'acheminer les données à la bonne adresse. 
-
-Puis on a associé à ces adresses des noms de domaine pour permettre de s'en souvenir plus facilement. 
+> TCP/IP fut créé lorsque Bob Kahn, travaillant alors pour la DARPA, dut créer un protocole pour un réseau de commutation de paquets par radio. Bien qu'ayant été un ingénieur majeur de l'ARPANET, qui utilisait alors le protocole NCP, il ne put se résoudre à l'utiliser car celui-ci devait fonctionner avec l'équipement réseau IMP et en plus n'effectuait pas de contrôle des erreurs. Il créa donc avec Vinton Cerf un protocole permettant de relier les réseaux entre eux3.
+>
+>La première publication de TCP/IP remonte à septembre 1973 lors d'une conférence de l'INWG3.
+>
+> -- <cite>[Wikipedia](https://fr.wikipedia.org/wiki/Suite_des_protocoles_Internet)</cite>
 
 ## Ressources
 
