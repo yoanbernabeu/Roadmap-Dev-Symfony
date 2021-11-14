@@ -12,6 +12,6 @@ sidebar_position: 1
 
 * [Vidéo - L'algorithme (1/10): les variables](https://www.youtube.com/watch?v=EPOs1Fln05w)
 
-* [Vidéo - Algorithmique (3/14)- les opératuers](https://www.youtube.com/watch?v=ae-2hgbiY6s)
+* [Vidéo - Algorithmique (3/14)- les opérateurs](https://www.youtube.com/watch?v=ae-2hgbiY6s)
 
 * [Texte - Flux d'entrée/sortie](http://www.lephpfacile.com/manuel-php/features.commandline.io-streams.php)
