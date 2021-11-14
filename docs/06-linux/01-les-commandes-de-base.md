@@ -132,10 +132,15 @@ cat 978-88-97192-60-2           // le meme résultat de 'cat livre'
 
 ```
  --- 
-`nano`  
+`nano` permet d'éditer simplement et rapidement les fichiers textes 
 ```
-
+nano nom_du_fichier
+nano -w nom_du_fichier     //Neutralise le retour à la ligne automatique 
+nano -l nom_du_fichier     //Affiche les numéros de ligne à gauche du texte
 ```
+Quitter Nano : `CTRL+X`  
+Enregistrer sous : `CTRL+O`  
+Rechercher dans le fichier : `CTRL+W`
 
 ## Les commandes de recherche
 
