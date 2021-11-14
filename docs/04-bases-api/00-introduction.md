@@ -4,6 +4,8 @@ sidebar_position: 0
 
 # Introduction
 
-Aujourd'hui, nous allons comprendre comment une application tierce (Votre site perso, le site de votre entreprise, etc.) peut communiquer avec une autre application (Comme Youtube, Facebook, la météo, les films, etc.) en utilisant une API.
+## Qu'est-ce qu'une API ?
 
-Le mot `REST` ne sera pas associé à un plat pas fini ! Mais belle et bien à la structure d'une API qui sera utilisable par tout le monde.
+> En informatique, une interface de programmation d’applications ou interface de programmation applicative (souvent désignée par le terme API pour Application Programming Interface) est un ensemble normalisé de classes, de méthodes, de fonctions et de constantes qui sert de façade par laquelle un logiciel offre des services à d'autres logiciels.
+>
+> -- <cite>[wikipedia](https://fr.wikipedia.org/wiki/Interface_de_programmation_d%27applications)</cite>
