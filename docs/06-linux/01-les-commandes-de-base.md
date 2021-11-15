@@ -7,39 +7,39 @@ sidebar_position: 2
 ## Info de base
 
 > **man** est une commande UNIX permettant d'accéder aux pages de manuel installées sur le système  
-> Example, pour avoir des info sur la commande ls: `man ls`
+> Exemple, pour avoir des infos sur la commande ls: `man ls`
 
-`CTRL+C` et `CTRL+V` qui on utilise sur Windows pour copier/coller peut interrompre l'écriture de la commande ou un script (CTRL+C).
-On peut alors aussi utiliser `CTRL+INS` et `SHIT+INS` dans la meme façon
+`CTRL+C` et `CTRL+V` qu'on utilise sur Windows pour copier/coller peut interrompre l'écriture de la commande ou un script (CTRL+C).
+On peut alors aussi utiliser `CTRL+INS` et `SHIT+INS` de la même façon
 
-## Les commandes de gestion des répertoires et des fichers
+## Les commandes de gestion des répertoires et des fichiers
 `pwd` affiche sur écran le chemin courant du répertoire de la shell  
 ```
 pwd
   /home/user/Documents   // affiche le chemin courant
 ```
  ---  
-`ls` abbreviation de *list*, montre tous les répertoires et fichers contenu du répertoire actif
+`ls` abbreviation de *list*, montre tous les répertoires et fichiers contenus du répertoire actif
 ```
 ls               // affiche seulement les noms  
   /blog          // c'est un répertoire
-  package.json   // c'est un ficher
+  package.json   // c'est un fichier
   symfony1.md
   symfony2.md
 ...
 ```
 ```
-ls blog          // affiche le contenu du sous dossier 'blog'
+ls blog          // affiche le contenu du sous-dossier 'blog'
   ...
 ```
 ```
-ls symfony*      // affiche seulement les fichers qui commence par 'symfony'  
+ls symfony*      // affiche seulement les fichiers qui commencent par 'symfony'  
   symfony1.md
   symfony2.md
 ...
 ```
  --- 
-`cd` abbreviation de *change directory*, on le utilise pour changer de répertoire courant  
+`cd` abbreviation de *change directory*, on l'utilise pour changer de répertoire courant  
 ```
 pwd
   /home/user/Documents       // le répertoire courant
@@ -47,12 +47,12 @@ ls
   /blog                      // le répertoire où on veut se déplacer
   /video
   diario.txt
-cd blog                      // la commande pour ce déplacer
+cd blog                      // la commande pour se déplacer
 pwd                          // le test
   /home/user/Documents/blog
 ```
 ```
-cd ~      // pour ce déplacer au répertoire de base
+cd ~      // pour se déplacer au répertoire de base
 ```
 ```
 cd ..     // aller au répertoire parent
@@ -61,19 +61,19 @@ cd ..     // aller au répertoire parent
 cd /      // aller au répertoire racine
 ```
  --- 
-`mkdir` abbreviation de *make directory*, pour créer un nouveau répertoire  
+`mkdir` abréviation de *make directory*, pour créer un nouveau répertoire  
 ```
 mkdir mon-dossier
 ls
   /mon-dossier   
 ```
  --- 
-`cp` abbreviation de *copy*, copie  
+`cp` abréviation de *copy*, copie  
 ```
-cp symfony2.md symfony3.md   // copie le ficher 'symfony2.md' dans un nouveau ficher 'symfony3.md'
+cp symfony2.md symfony3.md   // copie le fichier 'symfony2.md' dans un nouveau fichier 'symfony3.md'
 ```
 ```
-cp symfony* mon-dossier     // copie tout les fichers qui commencent par 'symfony' dans le dossier 'mon-dossier'
+cp symfony* mon-dossier     // copie tous les fichiers qui commencent par 'symfony' dans le dossier 'mon-dossier'
 cd mon-dossier
 ls
   symfony1.md
@@ -83,26 +83,26 @@ ls
 cp * mon-dossier   // copie tout le contenu du répertoire actuel dans 'mon-dossier'
 ```
  --- 
-`mv` abbreviation de *move*, déplace mais on peut aussi l'utiliser pour rénommer un ficher  
+`mv` abréviation de *move*, déplace mais on peut aussi l'utiliser pour renommer un fichier  
 ```
-mv symfony3.md symfony4.md  // rénomme
+mv symfony3.md symfony4.md  // renomme
 ```
 ```
-mv symfony4.md blog         // déplace le ficher dans le sous-dossier 'blog'
+mv symfony4.md blog         // déplace le fichier dans le sous-dossier 'blog'
 ```
  --- 
-`rm` abbreviation de *remove*, efface fichers ou répertoires  
+`rm` abréviation de *remove*, efface fichiers ou répertoires  
 ```
-rm symfony1.md           // efface le ficher 'symfony1.md'
+rm symfony1.md           // efface le fichier 'symfony1.md'
 ```
 ```
-rm symfony*              // efface les fichers qui commencent par 'symfony'
+rm symfony*              // efface les fichiers qui commencent par 'symfony'
 ```
 ```
 rm -rf blog              // efface le répertoire 'blog' avec tout son contenu 
 ```
  --- 
-`rmdir` abbreviation de *remove directory*, efface un ou plus répertoires mais seulement si sont vide  
+`rmdir` abréviation de *remove directory*, efface un ou plus répertoires mais seulement si sont vide  
 ```
 mkdir mon-dossier
 rmdir mon-dossier
@@ -110,13 +110,13 @@ rmdir mon-dossier
 ```
 mkdir mon-dossier1
 mkdir mon-dossier2
-rmdir mon-dossier*       // efface les deux dossier
+rmdir mon-dossier*       // efface les deux dossiers
 ```
  --- 
-`ln` abbreviation de *link*, crée un lien vers un ficher
+`ln` abréviation de *link*, crée un lien vers un fichier
 ```
 ln 978-88-97192-60-2 livre      // crée le lien de ISBN avec le livre
-cat 978-88-97192-60-2           // le meme résultat de 'cat livre'
+cat 978-88-97192-60-2           // le même résultat de 'cat livre'
 ```
 
 ## Les commandes d'édition  
@@ -154,11 +154,11 @@ Rechercher dans le fichier : `CTRL+W`
 
 ```
  ---
-`grep` recherche de mots dans les fichers
+`grep` recherche de mots dans les fichiers
 ```
-echo "mon premier ficher" > livre    // crée le ficher avec le teste
+echo "mon premier fichier" > livre    // crée le fichier avec le texte
 grep "pre" livre
-   mon premier ficher                // montre en rouge l'occurence
+   mon premier fichier                // montre en rouge l'occurence
 ```
 ```
 grep -c "pre" livre                  // compte les occurences
