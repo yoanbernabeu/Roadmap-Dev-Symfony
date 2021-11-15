@@ -6,11 +6,11 @@ sidebar_position: 2
 
 ## Info de base
 
-> **man** est une commande UNIX permettant d'accéder aux pages de manuel installées sur le système  
+> **man** est une commande UNIX permettant d'accéder aux pages du manuel installées sur le système  
 > Example, pour avoir des info sur la commande ls: `man ls`
 
-`CTRL+C` et `CTRL+V` qui on utilise sur Windows pour copier/coller peut interrompre l'écriture de la commande ou un script (CTRL+C).
-On peut alors aussi utiliser `CTRL+INS` et `SHIT+INS` dans la meme façon
+`CTRL+C` et `CTRL+V` qui on utilise sur Windows pour copier/coller peut interrompre l'écriture de la commande ou d'un script (CTRL+C).
+On peut alors aussi utiliser `CTRL+INS` et `SHIT+INS` de la meme façon
 
 ## Les commandes de gestion des répertoires et des fichers
 `pwd` affiche sur écran le chemin courant du répertoire de la shell  
@@ -121,9 +121,9 @@ cat 978-88-97192-60-2           // le meme résultat de 'cat livre'
 
 ## Les commandes d'édition  
  
-`touch`  
+`touch` pour créer un ficher vide  
 ```
-
+touch mon-ficher   // Crée le ficher 'mon-ficher' dans le répertoire courant
 ```
  --- 
 
@@ -132,10 +132,15 @@ cat 978-88-97192-60-2           // le meme résultat de 'cat livre'
 
 ```
  --- 
-`nano`  
+`nano` permet d'éditer simplement et rapidement les fichiers textes 
 ```
-
+nano nom_du_fichier
+nano -w nom_du_fichier     //Neutralise le retour à la ligne automatique 
+nano -l nom_du_fichier     //Affiche les numéros de ligne à gauche du texte
 ```
+Quitter Nano : `CTRL+X`  
+Enregistrer sous : `CTRL+O`  
+Rechercher dans le fichier : `CTRL+W`
 
 ## Les commandes de recherche
 
