@@ -14,7 +14,7 @@ Les systèmes de contrôle de version (versioning en anglais ou versionnage en f
 
 ### Ressources:
 
-* [Texte - Gerstion de version](https://fr.wikipedia.org/wiki/Gestion_de_versions)
+* [Texte - Gestion de version](https://fr.wikipedia.org/wiki/Gestion_de_versions)
 
 ### Sources:
 
