@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # TCP/IP
 
-> TCP/IP fut créé lorsque Bob Kahn, travaillant alors pour la DARPA, dut créer un protocole pour un réseau de commutation de paquets par radio. Bien qu'ayant été un ingénieur majeur de l'ARPANET, qui utilisait alors le protocole NCP, il ne put se résoudre à l'utiliser car celui-ci devait fonctionner avec l'équipement réseau IMP et en plus n'effectuait pas de contrôle des erreurs. Il créa donc avec Vinton Cerf un protocole permettant de relier les réseaux entre eux3.
+> TCP/IP fut créé lorsque Bob Kahn, travaillant alors pour la DARPA, dut créer un protocole pour un réseau de commutation de paquets par radio. Bien qu'ayant été un ingénieur majeur de l'ARPANET, qui utilisait alors le protocole NCP, il ne put se résoudre à l'utiliser car celui-ci devait fonctionner avec l'équipement réseau IMP et en plus n'effectuait pas de contrôle des erreurs. Il créa donc avec Vinton Cerf un protocole permettant de relier les réseaux entre eux.
 >
 >La première publication de TCP/IP remonte à septembre 1973 lors d'une conférence de l'INWG3.
 >
