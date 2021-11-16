@@ -103,7 +103,7 @@ pas, cependant. LAMP est utilisé pour : « Linux », « Apache », « MySQL »,
 fonctionne sur de nombreux OS : il fonctionne sur sous Windows (toutes versions supérieures à Win95)
 , sous Unix (Solaris), sous Linux, sous MacOS X, OpenBSD, FreeBSD… PHP peut être utilisé avec
 Apache, mais il peut également être utilisé avec d’autres serveurs web (IIS, par exemple). Quant aux
-bases de données, PHP 5 contient des connexions natives vers la plupart des base de données (par
+bases de données, PHP 5 contient des connexions natives vers la plupart des bases de données (par
 exemple, Microsoft SQL server, Oracle, PostgreSQL, MySQL, Sybase, SQLite, FilePro, Informix,
 Interbase, mSQL, dBase, Empress…) PHP 5 propose même une base de données intégrée: SQLite. Depuis
 PHP 5.1, l’extension PDO (PHP Data Object) permet même d’avoir une abstraction vis-à-vis des bases
