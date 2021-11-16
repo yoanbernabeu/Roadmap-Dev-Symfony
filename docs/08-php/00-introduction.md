@@ -56,7 +56,7 @@ Principe de base.
 -----------------
 
 * A l’origine, un langage de script pour serveurs web
-    * A l’origine, PHP était un langage de script conçu spécifiquement pour agir sur les serveurs
+    * À l’origine, PHP était un langage de script conçu spécifiquement pour agir sur les serveurs
       web: il s’agit d’ajouter quelques lignes de PHP à une page HTML pour la rendre « dynamique »,
       c’est-à-dire que c’est le web serveur qui vient écrire du code HMTL dans la page.
 * Actuellement: PHP 8.0 (16 novembre 2021).
