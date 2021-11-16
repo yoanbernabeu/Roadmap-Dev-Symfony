@@ -88,7 +88,7 @@ Architecture
 * Souvent LAMP : Linux, Apache, MySQL, PHP
 * Mais n’importe quel OS (Win, Unix/Linux…)‏
 * D’autres web serveur (Nginx,IIS…)‏
-* D’autres base de données (SQLite, PostgreSQL, Oracle, SqlSrv)‏
+* D’autres bases de données (SQLite, PostgreSQL, Oracle, SqlSrv)‏
 
 L’utilisation principale du langage PHP reste le traitement et la création de pages web au sein d’un
 serveur web. PHP apparaît alors comme une série de « scripts ». Il est cependant possible d’utiliser
