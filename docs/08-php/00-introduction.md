@@ -49,7 +49,7 @@ La version 4.0 de PHP apparut en mai 2000. Andi et Zeev ont ici de nouveau total
 moteur de PHP, afin d’améliorer… ses performances. Depuis 2003, PHP en est à sa version 5.0. PHP 5 a
 l’ambition d’être plus professionnel et plus simple. La programmation objet a fait ainsi son
 apparition, grâce à un « nouveau moteur » PHP (Zend engine 2). Depuis PHP 7, la sortie d'une
-release est régulière. une nouvelle version est sortie chaque année.
+release est régulière, chaque année sort une nouvelle version.
 
 
 Principe de base.
