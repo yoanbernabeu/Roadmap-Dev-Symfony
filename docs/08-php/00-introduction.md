@@ -64,7 +64,7 @@ Principe de base.
       une vraie plateforme de développement professionnelle.
 * Licence opensource, avec communauté dynamique
     * PHP fonctionne en licence opensource: sa rediffusion, son utilisation et sa modification sont
-      libres et gratuites. Le site officiel est http://www.php.net La communauté des développeurs
+      libres et gratuites. Le site officiel est http://www.php.net, la communauté des développeurs
       PHP est très dynamique: l’annonce d’une faille de sécurité implique généralement un correctif
       dans la journée.
 * Langage interprété: langage intermédiaire (bytecode) créé à chaque exécution
