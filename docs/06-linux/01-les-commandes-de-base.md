@@ -121,9 +121,9 @@ cat 978-88-97192-60-2           // le même résultat de 'cat livre'
 
 ## Les commandes d'édition  
  
-`touch`  
+`touch` pour créer un ficher vide  
 ```
-
+touch mon-ficher   // Crée le ficher 'mon-ficher' dans le répertoire courant
 ```
  --- 
 
