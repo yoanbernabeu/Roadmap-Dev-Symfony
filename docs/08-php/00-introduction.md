@@ -69,7 +69,7 @@ Principe de base.
       dans la journée.
 * Langage interprété: langage intermédiaire (bytecode) créé à chaque exécution
     * PHP est un langage interprété: les scripts sont convertis en langage intermédiaire (bytecode)
-      avant d’être exécuté. Mais ce code intermédiaire est recréé à chaque exécurtion et ne peut pas
+      avant d’être exécuté. Mais ce code intermédiaire est recréé à chaque exécution et ne peut pas
       être diffusé. Il n’y a donc pas de « compilation ».
 * Langage facile ? (Plus vraiment correcte).
     * **PHP** est un langage qui s’apprend **rapidement**. Cependant, **la maîtrise plus complète du
