@@ -35,7 +35,7 @@ PHP est un langage assez jeune.
 **PHP/FI a été créé en 1995 par Rasmus Lerdordf:** à l’origine il s’agissait d’une bibliothèque
 fonctionnant sous PERL que Rasmus avait développé pour son propre site web personnel (il voulait
 savoir qui venait consulter son CV). PHP/FI signifait Personal Home Page Tools / Forms Interpreter.
-Petit à pettit, la bibliothèque PERL s’est muée en une implémentation directe en C, afin d’augmenter
+Petit à petit, la bibliothèque PERL s’est muée en une implémentation directe en C, afin d’augmenter
 les performances et les possibilités.
 
 En 1997, il y avait des milliers d’utilisateurs de PHP. PHP/FI 2.0 vit le jour en novembre 1997.
