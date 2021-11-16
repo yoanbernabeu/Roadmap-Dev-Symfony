@@ -5,7 +5,7 @@ sidebar_position: 0
 # Introduction
  a compléter
 
-Elément d'histoire
+Élément d'histoire
 -------------------
 
 * PHP/FI: créé en 1995 par Rasmus Lerdorf. Bibliothèque de scripts fonctionnant sous PERL (Personal
