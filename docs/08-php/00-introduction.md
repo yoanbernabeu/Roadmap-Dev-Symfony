@@ -5,7 +5,7 @@ sidebar_position: 0
 # Introduction
  a compléter
 
-Elément d'histoire
+Élément d'histoire
 -------------------
 
 * PHP/FI: créé en 1995 par Rasmus Lerdorf. Bibliothèque de scripts fonctionnant sous PERL (Personal
@@ -34,8 +34,8 @@ PHP est un langage assez jeune.
 
 **PHP/FI a été créé en 1995 par Rasmus Lerdordf:** à l’origine il s’agissait d’une bibliothèque
 fonctionnant sous PERL que Rasmus avait développé pour son propre site web personnel (il voulait
-savoir qui venait consulter son CV). PHP/FI signifait Personal Home Page Tools / Forms Interpreter.
-Petit à pettit, la bibliothèque PERL s’est muée en une implémentation directe en C, afin d’augmenter
+savoir qui venait consulter son CV). PHP/FI signifiait Personal Home Page Tools / Forms Interpreter.
+Petit à petit, la bibliothèque PERL s’est muée en une implémentation directe en C, afin d’augmenter
 les performances et les possibilités.
 
 En 1997, il y avait des milliers d’utilisateurs de PHP. PHP/FI 2.0 vit le jour en novembre 1997.
@@ -48,15 +48,15 @@ communauté. PHP devint alors : **PHP Hypertext Preprocessor.**
 La version 4.0 de PHP apparut en mai 2000. Andi et Zeev ont ici de nouveau totalement réécrit le
 moteur de PHP, afin d’améliorer… ses performances. Depuis 2003, PHP en est à sa version 5.0. PHP 5 a
 l’ambition d’être plus professionnel et plus simple. La programmation objet a fait ainsi son
-apparition, grâce à un « nouveau moteur » PHP (Zend engine 2). Depuis PHP 7 , la sortie d'une
-release est régulière. une nouvelle version est sortie chaque année.
+apparition, grâce à un « nouveau moteur » PHP (Zend engine 2). Depuis PHP 7, la sortie d'une
+release est régulière, chaque année sort une nouvelle version.
 
 
 Principe de base.
 -----------------
 
 * A l’origine, un langage de script pour serveurs web
-    * A l’origine, PHP était un langage de script conçu spécifiquement pour agir sur les serveurs
+    * À l’origine, PHP était un langage de script conçu spécifiquement pour agir sur les serveurs
       web: il s’agit d’ajouter quelques lignes de PHP à une page HTML pour la rendre « dynamique »,
       c’est-à-dire que c’est le web serveur qui vient écrire du code HMTL dans la page.
 * Actuellement: PHP 8.0 (16 novembre 2021).
@@ -64,12 +64,12 @@ Principe de base.
       une vraie plateforme de développement professionnelle.
 * Licence opensource, avec communauté dynamique
     * PHP fonctionne en licence opensource: sa rediffusion, son utilisation et sa modification sont
-      libres et gratuites. Le site officiel est http://www.php.net La communauté des développeurs
+      libres et gratuites. Le site officiel est http://www.php.net, la communauté des développeurs
       PHP est très dynamique: l’annonce d’une faille de sécurité implique généralement un correctif
       dans la journée.
 * Langage interprété: langage intermédiaire (bytecode) créé à chaque exécution
     * PHP est un langage interprété: les scripts sont convertis en langage intermédiaire (bytecode)
-      avant d’être exécuté. Mais ce code intermédiaire est recréé à chaque exécurtion et ne peut pas
+      avant d’être exécuté. Mais ce code intermédiaire est recréé à chaque exécution et ne peut pas
       être diffusé. Il n’y a donc pas de « compilation ».
 * Langage facile ? (Plus vraiment correcte).
     * **PHP** est un langage qui s’apprend **rapidement**. Cependant, **la maîtrise plus complète du
@@ -88,7 +88,7 @@ Architecture
 * Souvent LAMP : Linux, Apache, MySQL, PHP
 * Mais n’importe quel OS (Win, Unix/Linux…)‏
 * D’autres web serveur (Nginx,IIS…)‏
-* D’autres base de données (SQLite, PostgreSQL, Oracle, SqlSrv)‏
+* D’autres bases de données (SQLite, PostgreSQL, Oracle, SqlSrv)‏
 
 L’utilisation principale du langage PHP reste le traitement et la création de pages web au sein d’un
 serveur web. PHP apparaît alors comme une série de « scripts ». Il est cependant possible d’utiliser
@@ -103,7 +103,7 @@ pas, cependant. LAMP est utilisé pour : « Linux », « Apache », « MySQL »,
 fonctionne sur de nombreux OS : il fonctionne sur sous Windows (toutes versions supérieures à Win95)
 , sous Unix (Solaris), sous Linux, sous MacOS X, OpenBSD, FreeBSD… PHP peut être utilisé avec
 Apache, mais il peut également être utilisé avec d’autres serveurs web (IIS, par exemple). Quant aux
-bases de données, PHP 5 contient des connexions natives vers la plupart des base de données (par
+bases de données, PHP 5 contient des connexions natives vers la plupart des bases de données (par
 exemple, Microsoft SQL server, Oracle, PostgreSQL, MySQL, Sybase, SQLite, FilePro, Informix,
 Interbase, mSQL, dBase, Empress…) PHP 5 propose même une base de données intégrée: SQLite. Depuis
 PHP 5.1, l’extension PDO (PHP Data Object) permet même d’avoir une abstraction vis-à-vis des bases
