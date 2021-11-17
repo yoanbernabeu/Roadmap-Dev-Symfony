@@ -20,4 +20,4 @@ Le fonctionnement des réseaux est un élément essentiel que tous les développ
 
 * [Vidéo - Comprendre les couches OSI en 8 minutes !](https://youtu.be/YG57te3jqE8)
 
-* [Texte - Apprenez le fonctionnement des réseaux TCP/IP](https://github.com/sebius77/Roadmap-Dev-Symfony.git)
+* [Texte - Apprenez le fonctionnement des réseaux TCP/IP](https://openclassrooms.com/fr/courses/857447-apprenez-le-fonctionnement-des-reseaux-tcp-ip)
