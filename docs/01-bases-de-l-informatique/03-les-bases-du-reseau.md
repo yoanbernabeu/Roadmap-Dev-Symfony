@@ -19,5 +19,3 @@ Le fonctionnement des réseaux est un élément essentiel que tous les développ
 * [Texte - Les 7 couches du modèle OSI](https://www.reseaux-telecoms.net/actualites/lire-les-7-couches-du-modele-osi-28083.html)
 
 * [Vidéo - Comprendre les couches OSI en 8 minutes !](https://youtu.be/YG57te3jqE8)
-
-* [Texte - Apprenez le fonctionnement des réseaux TCP/IP](https://openclassrooms.com/fr/courses/857447-apprenez-le-fonctionnement-des-reseaux-tcp-ip)
