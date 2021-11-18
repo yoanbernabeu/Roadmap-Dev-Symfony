@@ -22,4 +22,4 @@ sidebar_position: 4
 
 * [Livre - Apprenez le fonctionnement des réseaux TCP/IP | payants](https://www.elephorm.com/formation/code/webmaster/les-fondamentaux-du-webmaster/les-4-couches-tcpip)
 
-* [Texte - Apprenez le fonctionnement des réseaux TCP/IP | OpenClassrooms] (https://openclassrooms.com/fr/courses/857447-apprenez-le-fonctionnement-des-reseaux-tcp-ip)
+* [Texte - Apprenez le fonctionnement des réseaux TCP/IP | OpenClassrooms](https://openclassrooms.com/fr/courses/857447-apprenez-le-fonctionnement-des-reseaux-tcp-ip)
