@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### Introduction
 
-Que ce soit en temps que developpeur solo ou professionnel, comme dans de nombreux milieux professionnels, les employés d’une équipe et d’un service traitent un très grand nombre de fichiers et de documents sur une base quotidienne. Chacun a un rôle à jouer lors du cycle de vie de ces données. Par conséquent, il est important que les entreprises disposent des bonnes applications afin de coordonner efficacement la façon dont ces fichiers sont gérés, sauvegardés et partagés.
+Que ce soit en temps que développeur solo ou professionnel, comme dans de nombreux milieux professionnels, les employés d’une équipe et d’un service traitent un très grand nombre de fichiers et de documents sur une base quotidienne. Chacun a un rôle à jouer lors du cycle de vie de ces données. Par conséquent, il est important que les entreprises disposent des bonnes applications afin de coordonner efficacement la façon dont ces fichiers sont gérés, sauvegardés et partagés.
 
 ### Késako ?
 
