@@ -73,27 +73,9 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       algolia: {
-        // If Algolia did not provide you any appId, use 'BH4D9OD16A'
         appId: 'BH4D9OD16A',
-  
-        // Public API key: it is safe to commit it
         apiKey: 'a70846b936367f9fab41ed1f3f14a231',
-  
         indexName: 'roadmap-dev-symfony',
-  
-        // Optional: see doc section below
-        contextualSearch: true,
-  
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        //externalUrlRegex: 'external\\.com|domain\\.com',
-  
-        // Optional: see doc section below
-        //appId: 'YOUR_APP_ID',
-  
-        // Optional: Algolia search parameters
-        searchParameters:  {},
-  
-        //... other Algolia params
       },
     }),
 };
