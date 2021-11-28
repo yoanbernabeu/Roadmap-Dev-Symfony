@@ -201,6 +201,27 @@ more mon-script1.php mon-script2.php    // affice le contenu de 'mon-script1.php
 ## Les commandes de gestion des utilisateurs
 sudo | chmod | chown | useradd | userdel
 
+## Les commandes SSH  
+ 
+Se connecter en SSH  
+```
+ssh login@adresseIPdeVotreVM
+``` 
+ 
+Se connecter en SSH en utilisant une clé  
+```
+ssh -i /CheminVersVotreCleSsh login@adresseIPdeVotreVM
+``` 
+  
+Pour éviter d'ajouter -i fichier-cle-ssh  
+```
+ssh-add fichier-cle-ssh
+```
+  
+Copie de fichiers entre machines  
+```
+scp -i /CheminVersVotreCleSsh fichierACopier login@adresseIPdeVotreVM:/dossierDestination
+```
 ## Autres commandes utiles
 df | du
 jobs | kill | top
