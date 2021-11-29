@@ -2,6 +2,6 @@
 sidebar_position: 6
 ---
 
-# Client-Serveur
+# Les formulaires
 
 A écrire

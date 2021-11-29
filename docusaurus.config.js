@@ -72,6 +72,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        appId: 'BH4D9OD16A',
+        apiKey: 'a70846b936367f9fab41ed1f3f14a231',
+        indexName: 'roadmap-dev-symfony',
+      },
     }),
 };
 

@@ -8,4 +8,4 @@ Avant d'envisager d'étudier un langage de programmation ou de mettre les doigts
 
 Dans cette section de la roadmap nous vous proposons quelques ressources afin de vous former aux bases de l'informatique, afin d'améliorer ou compléter votre culture générale informatique.
 
-Promis, cela vous permettra de mieux comprendre certains concepts mis en oeuvre plus tard dans votre métier de développement.
+Promis, cela vous permettra de mieux comprendre certains concepts mis en œuvre plus tard dans votre métier de développeur.
