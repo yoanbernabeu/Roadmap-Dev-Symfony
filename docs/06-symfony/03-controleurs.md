@@ -27,7 +27,7 @@ class BlogController extends AbstractController
 }
 ```
 
-Dans le code ci-dessus, on définit une classe ```BlogController```. Elle peut hériter du ```AbstractController``` si on veut qu'elle puisse renvoyer une vue (ce qui est le cas ici). A l'intérieur, nous définissons une méthode index, qui sera chargée de renvoyer la liste des articles d'un blog. Ici, elle est reliée à une route nommée ```blog_index``` qui répond à l'adresse ```/blog```. 
+Dans le code ci-dessus, on définit une classe ```BlogController```. Elle peut hériter du ```AbstractController``` si on veut qu'elle puisse renvoyer une vue (ce qui est le cas ici). A l'intérieur, nous définissons une méthode ```index```, qui sera chargée de renvoyer la liste des articles d'un blog. Ici, elle est reliée à une route nommée ```blog_index``` qui répond à l'adresse ```/blog```. 
 
 Dans les paramètres de cette methode, nous pouvons nous faire liver des services. Ici, nous injectons le service ```PostRepository```. Attention, cette injection en paramètre d'un méthode ne fonctione que dans les méthodes des contrôleurs. 
 
