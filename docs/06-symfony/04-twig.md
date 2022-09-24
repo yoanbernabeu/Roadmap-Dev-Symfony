@@ -8,7 +8,7 @@ Twig est un langage qui va nous permettre de générer des pages HTML **dynamiqu
 
 Prenons un exemple : 
 
-Dans un contrôleur, on demande à Symfony de générer une page HTML en lui passant le chemin vers un template Twig et enventuellement des données à lui passer en second paramètre.
+Dans un contrôleur, on demande à Symfony de générer une page HTML en lui passant le chemin vers un template Twig et éventuellement des données à lui passer en second paramètre.
 
 ```
 #[Route('/hello', name: 'presentation')]
