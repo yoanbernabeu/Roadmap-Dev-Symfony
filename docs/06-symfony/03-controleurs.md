@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Les contrôleurs
 
-Dans une application Symfony, et plus généralement dans une application qui suit le modèle MVC, les contrôlleurs (C) sont des bouts de code (généralement des classes) qui sont chargés de faire le lien entre le modèle (M) et la vue (C). Ce sont des méthodes de ces classes qui sont appelées par le routeur lorsqu'une requête arrive. 
+Dans une application Symfony, et plus généralement dans une application qui suit le modèle MVC, les contrôlleurs (C) sont des bouts de code (généralement des classes) qui sont chargés de faire le lien entre le modèle (M) et la vue (V). Ce sont des méthodes de ces classes qui sont appelées par le routeur lorsqu'une requête arrive. 
 
 Prenons un exemple : 
 
