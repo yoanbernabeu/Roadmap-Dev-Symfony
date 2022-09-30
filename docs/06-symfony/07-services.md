@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Les services
 
-Lorsqu'on écrit du code, on aime que celui-ci soit bien rangé. On évite de faire de trop gros bouts de code, on préfère les morceler en de petits morceaux, plus faciles à maintenir, à faire évoluter et à débugger. De même, on peut être amené à vouloir réutiliser le même code à plusieurs endroits différents de l'application. Les services permettent de répondre à cette problématique.
+Lorsqu'on écrit du code, on aime que celui-ci soit bien rangé. On évite de faire de trop gros bouts de code, on préfère les morceler en de petits morceaux, plus faciles à maintenir, à faire évoluer et à débugger. De même, on peut être amené à vouloir réutiliser le même code à plusieurs endroits différents de l'application. Les services permettent de répondre à cette problématique.
 
 Symfony propose déjà des services tout en un, par exemple pour gérer des logs, envoyer des emails, gérer le cache, etc. Mais il est tout à fait possible de créer ses propres services. De plus, un service peut tout à fait faire appel à d'autres services.
 
