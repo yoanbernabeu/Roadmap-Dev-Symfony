@@ -39,3 +39,11 @@ Vous pouvez ensuite mettre à jour votre template Twig de base comme suit :
 ```
 
 Vous trouverez également dans le fichier de configuration des options pour travailler avec les framework JS Vue et React.
+
+## Ressources
+
+* [Apprendre utiliser Webpack Encore avec Symfony par Grafikart](https://grafikart.fr/tutoriels/encore-symfony-1075)
+
+* [Apprendre utiliser Webpack Encore avec Symfony 6 par Développeur Musclé](https://www.youtube.com/watch?v=Xsxztq8s-_I&ab_channel=D%C3%A9veloppeurMuscl%C3%A9)
+
+
