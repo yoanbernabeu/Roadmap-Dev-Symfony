@@ -17,7 +17,7 @@ function SayHello(string $prenom, string $lang='EN') : string
        'EN' => 'Hello',
        'DE' => 'GutenTag',
        'FR' => 'Bonjour',
-       'ES' => Hola
+       'ES' => 'Hola'
    ];
 
    return $hellos[$lang] . ' ' . $prenom . '!';
@@ -26,7 +26,7 @@ function SayHello(string $prenom, string $lang='EN') : string
 
 Cette fonction prend en entrée un prénom et éventuellement une langue et retourne ```Bonjour``` suivi du prénom dans cette langue.
 
-Transformons là en service. Nous créons un fichier ```HelloService.php``` que nous rangeons dans un dossier ```services```
+Transformons la en service. Nous créons un fichier ```HelloService.php``` que nous rangeons dans un dossier ```services```
 
 Dedans, nous écrivons une classe : 
 
