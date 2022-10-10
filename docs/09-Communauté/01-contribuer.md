@@ -60,14 +60,6 @@ Ouvrez le projet dans votre éditeur de code, et effectuez vos modifications.
 
 #### Etape 7
 
-Si vous êtes satisfait de votre travail, vous devez l'enregister dans le système de versioning de GIT. Pour cela, en ligne de commande, tapez les commandes suivantes : 
-
-```git add .``` (pour ajouter les fichiers modifiés)
-
-```git commit -m "<VOTRE_MESSAGE>"``` (pour ajouter vos modifications) en ramplaçant ```<VOTRE_MESSAGE>``` par un court message décrivant vos modifications (par exemple "ajout page X").
-
-#### Etape 7
-
 Vous devez compiler le projet pour vérifier ce que donnent vos modifications et qu'elles ne cassent rien d'existant. Pour cela, tapez les trois commandes suivantes :
 
 ```npm install``` (vous devez avoir NodeJS installé sur votre machine)
@@ -77,6 +69,14 @@ Vous devez compiler le projet pour vérifier ce que donnent vos modifications et
 ```npm run serve``` (pour voir le résultat).
 
 Rendez vous à l'adresse ```http://localhost:3000/Roadmap-Dev-Symfony/``` pour voir la documentation et vérifier le résultat de vos modifications.
+
+#### Etape 8
+
+Si vous êtes satisfait de votre travail, vous devez l'enregister dans le système de versioning de GIT. Pour cela, en ligne de commande, tapez les commandes suivantes : 
+
+```git add .``` (pour ajouter les fichiers modifiés)
+
+```git commit -m "<VOTRE_MESSAGE>"``` (pour ajouter vos modifications) en ramplaçant ```<VOTRE_MESSAGE>``` par un court message décrivant vos modifications (par exemple "ajout page X").
 
 #### Etape 9
 
