@@ -24,7 +24,7 @@ Vous pouvez aussi cliquer sur un ticket existant et rajouter un commentaire à c
 
 #### Faire une pull request
 
-Si vous souhaiter réaliser vous même une correction ou ajouter du contenu, vous pouvez le faire en suivant les étapes suivantes. Vous devez disposer d'un compte Github et avoir GIT installé sur votre machine.
+Si vous souhaitez réaliser vous même une correction ou ajouter du contenu, vous pouvez le faire en suivant les étapes suivantes. Vous devez disposer d'un compte Github et avoir GIT installé sur votre machine.
 
 ##### Etape 1
 
@@ -38,7 +38,7 @@ Rendez-vous sur votre compte Github et cliquez sur le bouton **Repositories** en
 
 Sur votre machine, en ligne de commande, tapez la commande suivante : 
 
-```git clone <URL_COPIEE>``` en remplaçant ```<URL_COPIEE>``` par celle que vous avez copié à l'étape précédente. Cela va importer votre copie du projet sur votre machine dans un nouveau répertoire.
+```git clone <URL_COPIEE>``` en remplaçant ```<URL_COPIEE>``` par celle que vous avez copiée à l'étape précédente. Cela va importer votre copie du projet sur votre machine dans un nouveau répertoire.
 
 #### Etape 4
 
@@ -50,9 +50,9 @@ en remplaçant ```<NOM_DE_LA_BRANCHE>``` par le nom de la branche sur laquelle v
 
 #### Etape 5
 
-Vous devez indiquer à Git l'adresse du dépôt d'origine. Pour cela tapez la commande suivante : 
+Vous devez indiquer à Git l'adresse du dépôt de votre copie du projet. Recupérez d'abord l'adresse de votre dépot en répétant l'étape 2. Puis tapez la commande suivante : 
 
-```git remote add upstream https://github.com/yoanbernabeu/Roadmap-Dev-Symfony```
+```git remote add upstream <URL_COPIEE>``` en remplaçant ```<URL_COPIEE>``` par celle que vous avez copiée.
 
 #### Etape 6
 
