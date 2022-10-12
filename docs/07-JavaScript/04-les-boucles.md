@@ -68,3 +68,7 @@ for (let skill in skills) {
 ```
 
 Cette boucle affichera d'abord ```HTML```, puis ```CSS``` puis ```PHP```.
+
+ ## Ressources
+
+* [Apprendre à gérer les boucles par Grafikart](https://grafikart.fr/tutoriels/boucles-2058#autoplay)
