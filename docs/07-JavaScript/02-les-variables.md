@@ -31,6 +31,28 @@ Dans une variable, on peut ranger différents types de données :
 
  Si une variable a été déclarée mais ne contient pas de valeur, la valeur qui sera retournée sera de type ```undefined```. On peut aussi déclarer une valeur nulle, avec le type ```null```.
 
- ## Ressources
+ Les tableaux sont des collections de données ou de variables. Ils peuvent contenir tous les types de données, ou même un mix des types. Ils s'écrivent entre crochets, avec les données séparées par une virgule. Un tableau peut contenir d'autres tableaux. Par exemple : 
+
+ ```
+const numbers = [2, 4, 6, 8]
+
+const mixed = ['texte', 2, true]
+
+const array_in_array = [[0, 1], [2, 3]]
+```
+
+Les objets sont une façon de représenter un objet abstrait qui dispose de propriétés, chacune ayant une valeur. Ils s'écrivent entre accolades, avec des couples proprité/valeur séparés par des virgules. On sépare la proprité de la valeur par un signe deux points. Par exemple :
+
+ ```
+const person = {
+    first_name : 'John',
+    last_name : 'Doe',
+    age : 32
+}
+```
+
+On pourra récuperer la valeur d'une propriété en utilisant le symbole point sur l'objet. Par exemple,  ```person.age``` renverra 32.
+
+## Ressources
 
 * [Apprendre à gérer les variables par Grafikart](https://grafikart.fr/tutoriels/variables-2055#autoplay)
