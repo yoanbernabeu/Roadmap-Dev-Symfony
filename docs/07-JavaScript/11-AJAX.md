@@ -6,7 +6,7 @@ sidebar_position: 9
 
 Quand on fait du JavaScript, on peut être amené à devoir communiquer avec une API, pour récuperer ou envoyer des données. Une méthode existe pour ça, elle s'appelle ```fetch```.
 
-Pour l'utiliser, on l'appelle en lui passant en premier paramètre l'URL de la ressource et éventuellement en second paramêtre un objet d'options. Elle renvoie une promesse. Si on veut récuperer des données en JSON, on devra appeler un méthode ```json()``` sur le résultat de la promesse, méthode qui renverra elle aussi une promesse.
+Pour l'utiliser, on l'appelle en lui passant en premier paramètre l'URL de la ressource et éventuellement en second paramètre un objet d'options, dans lequel on peut spécifier par exemple des entêtes HTTP. Elle renvoie une promesse. Si on veut récupérer des données en JSON, on devra appeler une méthode ```json()``` sur le résultat de la promesse, méthode qui renverra elle aussi une promesse.
 
 ```
 fetch('https://jsonplaceholder.typicode.com/posts?_limit=10',{
