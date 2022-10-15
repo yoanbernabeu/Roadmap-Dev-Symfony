@@ -90,3 +90,7 @@ main()
 ```
 
 Ce code va d'abord écrire ```départ```, puis ```terminé``` au bout de deux secondes.
+
+ ## Ressources
+
+* [Apprendre à gérer les promesses par Grafikart](https://grafikart.fr/tutoriels/javascript-promise-2067#autoplay)
