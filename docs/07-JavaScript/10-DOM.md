@@ -4,7 +4,7 @@ sidebar_position: 9
 
 # La gestion du DOM
 
-Quand on travaille côté navigateur, il peut être utile d'intéragir avec le DOM. Ainsi, on peut manipuler le contenu des élément, leurs styles, leurs attributs, etc. 
+Quand on travaille côté navigateur, il peut être utile d'intéragir avec le DOM. Ainsi, on peut manipuler le contenu des éléments, leurs styles, leurs attributs, etc. 
 
 Pour sélectionner un élement du DOM avec JavaScript, on utilise une méthode ```querySelector``` sur l'objet ```document```. Cette méthode utilise un sélecteur CSS classique. 
 
