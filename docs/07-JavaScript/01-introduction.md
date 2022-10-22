@@ -16,7 +16,7 @@ Bien que conçu pour travailler avec votre navigateur, on peut aujourd'hui le fa
 
 Attention, JavaScript n'a rien à voir avec le langage Java. Le premier est un langage interprété (par votre navigateur ou NodeJS), le second est un langage compilé (et qui a donc besoin d'une machine virtuelle pour être exécuté).
 
-La documentation que vous êtes en train de lire a d'ailleurs été réalisé avec un outil qui utilise le JavaScript côté serveur et côté client ([Docusaurus](https://docusaurus.io/)).
+La documentation que vous êtes en train de lire a d'ailleurs été réalisée avec un outil qui utilise le JavaScript côté serveur et côté client ([Docusaurus](https://docusaurus.io/)).
 
 
  ## Ressources
