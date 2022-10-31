@@ -39,7 +39,7 @@ while (i <= 5) {
 }
 ```
 
-On peut également remplacer le ```i+++``` par ```i = i + 1```.
+On peut également remplacer le ```i++``` par ```i = i + 1```.
 
 
 #### Boucle for in
