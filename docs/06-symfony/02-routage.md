@@ -22,7 +22,7 @@ class HomeController extends AbstractController
 }
 ```
 
-Ici, on explique que lorsqu'on sera à l'adresse ```/home```, il faudra appeler la méthode ```index``` dans le contrôleur ```HomeController```. Dans cette exemple, cette méthode renverra une page HTML, écrite en Twig, définie dans un fichier ```index.html.twig``` et disponible dans le dossier ```/templates/home```.
+Ici, on explique que lorsqu'on sera à l'adresse ```/home```, il faudra appeler la méthode ```index``` dans le contrôleur ```HomeController```. Dans cet exemple, cette méthode renverra une page HTML, écrite en Twig, définie dans un fichier ```index.html.twig``` et disponible dans le dossier ```/templates/home```.
 
 On peut aussi passer par un fichier qui liste toutes les routes de l'application. En reprenant le même exemple, il faudra éditer le fichier ```routes.yaml``` disponible dans le dossier ```config```.
 
