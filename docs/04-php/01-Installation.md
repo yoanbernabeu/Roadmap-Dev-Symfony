@@ -58,6 +58,28 @@ Ecrire un mini script et le sauver (phpinfo.php)
 Installation Debian/Ubuntu/Mint...
 ----------------------------------
 
+Pour avoir les dernières versions de **PHP** , voir le projet [deb.sury.org](https://deb.sury.org/)
+
+Pour **Debian**
+
+Ajouter les dépôts **Debian** de **deb.sury.org**
+
+.. code-block:: bash
+
+curl -s https://packages.sury.org/php/README.txt -o install_php.sh
+sh install_php.sh
+
+A cette [endroit](https://packages.sury.org/php/pool/main/p/) on peut avoir toutes les versions de **PHP** disponibles.
+
+Pour **Ubuntu/Mint**
+
+Ajouter les dépôts **PPA** de **deb.sury.org**
+
+.. code-block:: bash
+
+sudo add-apt-repository ppa:ondrej/php
+sudo apt update
+
 .. code-block:: bash
 
     sudo apt-get install php8.0
