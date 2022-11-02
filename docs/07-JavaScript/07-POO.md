@@ -47,7 +47,7 @@ class Person {
     }
 
     getFormated() {
-        return `${this.firstName} ${this.firstName} : ${this.email}` 
+        return `${this.firstName} ${this.lastname} : ${this.email}` 
     }
 }
 ```
