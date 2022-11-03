@@ -10,7 +10,7 @@ Prenons un exemple :
 
 Dans un contrôleur, on demande à Symfony de générer une page HTML en lui passant le chemin vers un template Twig et éventuellement des données à lui passer en second paramètre.
 
-```
+```php
 #[Route('/hello', name: 'presentation')]
 public function presentation(): Response
 {
@@ -28,7 +28,7 @@ On lui passe en second paramètre les données qu'on va utiliser dans le templat
 
 Le fichier ```index.html.twig``` va alors ressembler à ceci : 
 
-```
+```twig
 <h1>Votre prénon est {{ firstname }}</h1>
 
 {% if age >= 18 %}

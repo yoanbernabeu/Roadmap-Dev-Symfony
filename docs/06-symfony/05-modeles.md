@@ -12,7 +12,7 @@ On dispose également de deux autres classes pour travailler avec notre entité.
 
 Prenons un exemple :
 
-```
+```php
 namespace App\Entity;
 use App\Repository\PostRepository;
 use Doctrine\ORM\Mapping as ORM;
@@ -49,7 +49,7 @@ De même avec la propriété ```$content``` qui a un type texte long.
 Lorsqu'on voudra récupérer des données, on fera appel au ```PostRepository``` en utilisant des méthodes comme ```findAll()``` ou ```findBy()```
 
 
-```
+```php
 public function index(PostRepository $repo): Response
 {
     $posts = $repo->findAll();

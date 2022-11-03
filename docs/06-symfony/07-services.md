@@ -10,7 +10,7 @@ Symfony propose déjà des services tout en un, par exemple pour gérer des logs
 
 Prenons un exemple :
 
-```
+```php
 function SayHello(string $prenom, string $lang='EN') : string
 {
    $hellos = [
@@ -30,7 +30,7 @@ Transformons la en service. Nous créons un fichier ```HelloService.php``` que n
 
 Dedans, nous écrivons une classe : 
 
-```
+```php
 <?php
 
 namespace App\Service;
@@ -53,7 +53,7 @@ class HelloService
 
 Si nous souhaitons faire appel à la méthode ```SayHello``` de ce service dans une méthode d'un contrôleur relié à une route, nous pouvons injecter ce service dans les paramètres de la méthode.
 
-```
+```php
 use App\Service\HelloService;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -74,7 +74,7 @@ public function hello(string $firstname, HelloService $helloService)
 
 Si nous souhaitons utiliser ce service dans une méthode d'une autre classe, nous pouvons l'injecter grâce au constructeur.
 
-```
+```php
 use App\Service\HelloService;
 
 class ServiceB

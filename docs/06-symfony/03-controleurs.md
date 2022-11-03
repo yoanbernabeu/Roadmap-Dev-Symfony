@@ -8,7 +8,7 @@ Dans une application Symfony, et plus généralement dans une application qui su
 
 Prenons un exemple : 
 
-```
+```php
 use App\Repository\PostRepository;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
