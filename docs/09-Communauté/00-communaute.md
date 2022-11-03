@@ -28,3 +28,13 @@ Thomas Boileau propose sur sa chaine Youtube des vidéos en rapport avec Symfony
 #### Les teachers du net
 
 Honoré Hounwanou propose sur sa chaine Youtube un grand nombre de vidéos en rapport avec Symfony. Des bases aux concepts plus avancés, avancez pas à pas avec Honoré. Vous pouvez le retrouver sur sa chaine [Youtube](https://www.youtube.com/c/Teachersdunet), son [site web](https://parlonscode.com) et [Twitter](https://twitter.com/TEACHERSDUNET).
+
+
+#### Nouvelle Techno
+
+Cette chaine Youtube appelé tout simplement "Nouvelle Techno" propose un grand nombre de vidéo en rapport avec Symfony, mais également Javascript et d'autres Framework.  Vous pouvez retrouver des vidéos de grandes qualités sur sa chaîne [Youtube](https://www.youtube.com/c/NouvelleTechno/), son [site web](https://nouvelle-techno.fr/), sur [Twitter](https://twitter.com/Nouvelle_Techno). Cette chaîne dispose également d'un groupe [Discord](https://discord.com/invite/8DcaQehcvE).
+
+
+#### Développeur Musclé
+
+Cette chaine Youtube propose elle aussi des tutoriels lié à Docker, Symfony. La différence avec les autres chaînes précédement cité evoque également le bien être du point de vue de la santé personnelle. En effet, être développeur m'implique pas de ce sentir bien dans sa vie personnelle. Chaine [Youtube](https://www.youtube.com/channel/UCX9r1JCgQLEerwuYqHiHApA)
