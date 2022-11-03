@@ -10,7 +10,7 @@ Elle consiste en l'introduction d'un objet ```Form```, sur lequel on a des méth
 
 Reprenons notre exemple de l'entité ```Post``` qu'on a vu dans le chapitre précédent. Pour gérer le formulaire qui va permettre d'ajouter un nouvel article, on va d'abord créer une classe ```PostType```, qu'on rangera dans un dossier ```Form```.
 
-```
+```php
 namespace App\Form;
 
 use App\Entity\Post;
@@ -40,7 +40,7 @@ class PostType extends AbstractType
 
 Puis dans le contrôleur, on gère le formulaire. Une seule route peut servir à prendre en compte l'affichage du formulaire et sa soumission.
 
-```
+```php
 use App\Entity\Post;
 use App\Form\PostType;
 use Doctrine\ORM\EntityManagerInterface;
@@ -72,7 +72,7 @@ Ici, l'objet ```post``` va automatiquement être rempli avec les données saisie
 
 Côté vue, on utilise des commandes Twig pour afficher le formulaire.
 
-```
+```twig
 {% form_theme postForm 'bootstrap_5_layout.html.twig' %}
 
 {{form_start(postForm)}}

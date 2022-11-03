@@ -14,7 +14,7 @@ Mais il rajoute des fonctionnalités spécifiques pour les usages côté serveur
 
 Par exemple, pour écrire dans un fichier, on pourra écrire quelque chose comme ça :
 
-```
+```js
 const fs = require('fs');
 
 fs.writeFile('/Users/joe/test.txt', 'Hello World', err => {
@@ -34,7 +34,7 @@ Imaginons par exemple que l'on ait besoin de générer des slug à partir de cha
 
 Pour l'installer, on tapera en ligne de commande ```npm install slugify```. Cela téléchargera la librairie sur notre système. On pourra alors l'utiliser dans un fichier JavaScript comme ceci :
 
-```
+```js
 const slugify = require('slugify')
 
 console.log(slugify('un super article'))

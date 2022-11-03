@@ -19,7 +19,7 @@ Il existe différents types de boucle en JavaScript :
 
 Elle permet de répeter les choses un nombre défini de fois. Imaginons qu'on souhaite réaliser un compteur :
 
-```
+```js
 for (let i = 1; i <= 5; i++) {
     console.log("compteur: " + i)
 }
@@ -31,7 +31,7 @@ Dans ce code, on part avec ```i``` à 1. On indique qu'on continue tant que ```i
 
 Elle permet de répeter les choses tant qu'une condition est remplie. En reprennant l'exemple de la boucle ```for```, cela donne :
 
-```
+```js
 let i = 1 
 while (i <= 5) {
     console.log("compteur: " + i)
@@ -46,7 +46,7 @@ On peut également remplacer le ```i++``` par ```i = i + 1```.
 
 Elle permet de parcourir les clefs d'un tableau ou les propriétés d'un objet.
 
-```
+```js
 const person = { firstname: 'john', lastname: 'Doe', age: 32 };
 
 for (const property in person) {
@@ -60,7 +60,7 @@ Cette boucle affichera d'abord ```firstname```, puis ```lastname``` puis ```age`
 
 Elle permet de parcourir les éléments d'un tableau. Prenons un exemple : 
 
-```
+```js
 const skills = ['HTML', 'CSS', 'PHP']
 for (let skill in skills) {
     console.log(skill) 

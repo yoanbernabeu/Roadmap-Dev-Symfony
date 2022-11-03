@@ -10,7 +10,7 @@ Dans Symfony, il y a deux manières de définir les routes de l'application. On 
 
 Exemple :
 
-```
+```php
 class HomeController extends AbstractController
 {
     #[Route('/home', name: 'home')]
@@ -26,8 +26,8 @@ Ici, on explique que lorsqu'on sera à l'adresse ```/home```, il faudra appeler 
 
 On peut aussi passer par un fichier qui liste toutes les routes de l'application. En reprenant le même exemple, il faudra éditer le fichier ```routes.yaml``` disponible dans le dossier ```config```.
 
-```
-home
+```yaml
+home:
     path : /home
     controller : App\Controller\HomeController::index
 ```

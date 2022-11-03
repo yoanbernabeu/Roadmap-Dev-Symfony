@@ -24,7 +24,7 @@ Vous pouvez ensuite taper la commande ```npm run watch``` pour le dévoloppement
 
 Vous pouvez ensuite mettre à jour votre template Twig de base comme suit : 
 
-```
+```twig
 <head>
     <!-- ... -->
 
