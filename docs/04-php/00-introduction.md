@@ -2,11 +2,12 @@
 sidebar_position: 0
 ---
 
-# Introduction
- a compléter
+## Introduction
+ PHP (_PHP: Hypertext Preprocessor_) est un langage de programmation utilisé majoritairement pour créer des sites et applications web, ainsi que des scripts et applications en ligne de commande.
+ 
+ Aujourd'hui, presque 80% des sites web dans le monde utilisent PHP, et près de 40% des sites utilisent le CMS Wordpress, écrit en PHP.
 
-Élément d'histoire
--------------------
+## Élément d'histoire
 
 * 1995 : PHP/FI (Personal
   Home Page Tools / Forms Interpreter) est créé en  par Rasmus Lerdorf. C'est à la base une bibliothèque de scripts fonctionnant sous PERL, puis avec une implémentation en C.
@@ -56,8 +57,7 @@ apparition, grâce à un « nouveau moteur » PHP (Zend engine 2). Depuis PHP 7,
 release est régulière, chaque année sort une nouvelle version.
 
 
-Principe de base.
------------------
+## Principe de base.
 
 * A l’origine, un langage de script pour serveurs web
     * À l’origine, PHP était un langage de script conçu spécifiquement pour agir sur les serveurs
@@ -79,19 +79,16 @@ Principe de base.
     * **PHP** est un langage qui s’apprend **rapidement**. Cependant, **la maîtrise plus complète du
       langage est difficile.**
 
-L’utilisation de PHP
-********************
+## L’utilisation de PHP
 
-* Couplée à un web serveur
-* Ligne de commande
-* Application graphique (à vérifier)
+* Applications web, derrière un serveur HTTP
+* Applications en ligne de commande (via l'extension `phar`, pour _"PHP Archive"_)
 
-Architecture
-**************
+## Architecture
 
-* Souvent LAMP : Linux, Apache, MySQL, PHP
-* Mais n’importe quel OS (Win, Unix/Linux…)‏
-* D’autres web serveur (Nginx,IIS…)‏
+* Souvent LAMP : Linux, Apache, MySQL, PHP (ou WAMP, avec W pour Windows).
+* Compatible avec n’importe quel OS (Win, Unix/Linux…)‏
+* Compatible avec tous les serveurs HTTP (Nginx[^1], Caddy, Apache, IIS…)‏
 * D’autres bases de données (SQLite, PostgreSQL, Oracle, SqlSrv)‏
 
 L’utilisation principale du langage PHP reste le traitement et la création de pages web au sein d’un
@@ -114,8 +111,7 @@ PHP 5.1, l’extension PDO (PHP Data Object) permet même d’avoir une abstract
 données: pour gérer une nouvelle base de données, il suffit d’écrire le bon connecteur; les données
 sont ensuite transmises à la « couche » PDO.
 
-Quelques liens :
-****************
+## Quelques liens :
 
 **Site Officiel de PHP**
 http://php.net
@@ -126,4 +122,8 @@ http://php.net
 * http://afup.org
 * http://phpfrance.com
 * http://fr.php.net
+
+---
+
+[^1]: à prononcer enne-djine-X (`[ˌɛndʒɪnˈɛks]`) (source : https://fr.wikipedia.org/wiki/NGINX)
 
