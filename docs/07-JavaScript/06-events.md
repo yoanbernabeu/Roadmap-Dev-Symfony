@@ -10,7 +10,7 @@ Pour déclancher du code quand un de ces évènement se produit, on utilise ce q
 
 Par exemple, si on souhaite réagir au clic sur un élement du DOM, par exemple un bouton, on peut écrire le code suivant : 
 
-```
+```js
 const button = document.querySelector('#loginBT')
 
 button.addEventListener('click', function () {
@@ -20,7 +20,7 @@ button.addEventListener('click', function () {
 
 Pour une frappe dans un champ texte, on peut écrire le code suivant : 
 
-```
+```js
 const input = document.querySelector('input');
 
 input.addEventListener('input', updateValue);
@@ -32,7 +32,7 @@ function updateValue(e) {
 
 Pour écouter les déplacement de la souris, on peut écrire quelque chose comme ça.
 
-```
+```js
 document.addEventListener('mousemove', (e) => {
    console.log(`la souris a bougé en ${e.offsetX}/${e.offsetY}.`
   }

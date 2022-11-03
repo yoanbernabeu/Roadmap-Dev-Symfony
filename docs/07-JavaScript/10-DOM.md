@@ -10,13 +10,13 @@ Pour sélectionner un élement du DOM avec JavaScript, on utilise une méthode `
 
 Imaginons le code HTML suivant : 
 
-```
+```html
 <div class="hello"></div>
 ```
 
 On peut changer le texte de la div avec le code suivant :
 
-```
+```js
 const div = document.querySelector('.hello')
 
 div.innerHTML = '<strong>Bonjour</strong>'
@@ -24,7 +24,7 @@ div.innerHTML = '<strong>Bonjour</strong>'
 
 On peut aussi par exemple changer le style d'un élement :
 
-```
+```js
 const div = document.querySelector('.hello')
 
 div.style.fontSize = '24px'

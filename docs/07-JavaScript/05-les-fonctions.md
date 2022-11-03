@@ -10,7 +10,7 @@ Une fonction peut prendre en entrée des paramètres que l'on va utiliser dans l
 
 Prenons un example :
 
-```
+```js
 function sayHello(prenom) {
     return 'Bonjour ' + prenom
 }
@@ -21,7 +21,7 @@ Cette fonction permet de renvoyer une chaine de caractère qui dit ```bonjour```
 On peut aussi stocker la fonction dans une variable. Par exemple :
 
 
-```
+```js
 const sayHello = function (prenom) {
     return 'Bonjour ' + prenom
 }
@@ -31,7 +31,7 @@ On l'appellera de la même manière.
 
 On peut aussi utiliser ce qu'on appelle les fonctions fléchées. 
 
-```
+```js
 const sayHello = (prenom) => {
     return 'Bonjour ' + prenom
 }
@@ -39,7 +39,7 @@ const sayHello = (prenom) => {
 
 Si la fonction ne comporte qu'une seule instruction de retour, on peut l'écrire sur une seule ligne en enlevant les accolades et le mot-clé ```return```.
 
-```
+```js
 const sayHello = (prenom) => 'Bonjour ' + prenom
 ```
 

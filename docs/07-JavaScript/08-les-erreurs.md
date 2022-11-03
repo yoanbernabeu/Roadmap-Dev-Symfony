@@ -8,7 +8,7 @@ Lorsque l'on écrit un code, celui-ci peut parfois générer des erreurs. On peu
 
 Pour générer une exception, on utilise le mot-clef ```throw``` et l'objet ```Error```. On écrira par exemple : 
 
-```
+```js
 if(age < 18) {
     throw new Error('Vous devez être majeur')
 }
@@ -17,7 +17,7 @@ if(age < 18) {
 
 On peut capturer une exception en utilsant le bloc ```try...catch```.
 
-```
+```js
 try {
     // code qui peut renvoyer des erreurs
 } catch (e) {
