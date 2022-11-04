@@ -10,7 +10,7 @@ Une fonction peut prendre en entrée des paramètres que l'on va utiliser dans l
 
 Prenons un example :
 
-```
+```php
 function sayHello(string $prenom) {
     return 'Bonjour ' . $prenom
 }
@@ -21,7 +21,7 @@ Cette fonction permet de renvoyer une chaine de caractère qui dit ```bonjour```
 Les paramètres peuvent prendre des valeurs par défaut. 
 
 
-```
+```php
 function sayHello(string $prenom="Bob"): string
 {
     return 'Bonjour ' . $prenom

@@ -18,7 +18,7 @@ Il existe différents types de boucle en PHP :
 
 Elle permet de répeter les choses un nombre défini de fois. Imaginons qu'on souhaite réaliser un compteur :
 
-```
+```php
 for ($i = 1; $i <= 5; $i++) {
     echo "compteur: " . $i;
 }
@@ -30,7 +30,7 @@ Dans ce code, on part avec ```$i``` à 1. On indique qu'on continue tant que ```
 
 Elle permet de répeter les choses tant qu'une condition est remplie. En reprennant l'exemple de la boucle ```for```, cela donne :
 
-```
+```php
 $i = 1;
 while ($i <= 5) {
     echo "compteur: " . $i;
@@ -45,7 +45,7 @@ On peut également remplacer le ```$i++``` par ```$i = $i + 1```.
 
 Elle permet de parcourir les élements d'un tableau.
 
-```
+```php
 $tableau = [2, 4, 6, 8];
 foreach ($tableau as $valeur){
     echo $valeur;
@@ -56,7 +56,7 @@ Cette boucle affichera d'abord ```2```, puis ```4``` puis ```6``` puis ```8```.
 
 On peut aussi extraire les clefs d'un tableau : 
 
-```
+```php
 $tableau = [
     'nom' => 'Doe',
     'prenom' => 'John',

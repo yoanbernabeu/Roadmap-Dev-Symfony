@@ -10,13 +10,13 @@ Pour écrire une tableau, on utilise les crochets, à l'intérieur desquels on �
 
 Exemple :
 
-```
+```php
 $mois = ['janvier', 'février', 'mars'];
 ```
 
 Lorsqu'on veut récupérer une valeur dans un tableau, on utilse son index, c'est à dire sa position dans le tableau, en sachant que la première position est à l'index 0.
 
-```
+```php
 $selection = $mois[2];
 echo $selection; 
 ```
@@ -25,7 +25,7 @@ Ce code renverra le mot ```mars```, puis que l'index 2 représente la troisième
 
 On peut aussi rajouter une valeur dans un tableau. Dans ce cas, il n'est pas nécessaire de spécifier l'index :
 
-```
+```php
 $mois[] = 'avril';
 echo $mois; 
 ```
@@ -34,7 +34,7 @@ On peut aussi écrire ce qu'on appelle des tableaux **associatifs**, c'est à di
 
 Exemple :
 
-```
+```php
 $resultats = [
     'janvier' => 25,
     'février' => 32,
@@ -44,7 +44,7 @@ $resultats = [
 
 Pour récuper une valeur particulière, on utilisera sa clef. 
 
-```
+```php
 $resultat_fevrier = $resultats['février'];
 echo $resultat_fevrier; 
 ```
@@ -53,7 +53,7 @@ Ce code renverra la valeur ```32```.
 
 On peut aussi modifier une valeur dans un tableau :
 
-```
+```php
 $resultats['février'] = 29;
 ```
 

@@ -8,7 +8,7 @@ Il serait bien difficule de décrire en totalité les principes de la programmat
 
 Imaginons que vous travailliez sur un annuaire. Vous allez donc devoir gérer des personnes. Chacune aura par exemple un nom, un prénom et un email. C'est l'occasion de ce créer un type d'objet dédié, en écrivant ce qu'on appelle une classe.
 
-```
+```php
 class Person {
 
     constructor (
@@ -29,7 +29,7 @@ Pour récupérer l'email on écrira ```$personne->email;```.
 
 On peut aussi écrire des méthodes dans notre classe. Par exemple, rajoutons une méthode qui renverra une chaine formatée pour afficher la personne :
 
-```
+```php
 class Person {
 
     constructor (

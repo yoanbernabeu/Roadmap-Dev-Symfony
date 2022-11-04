@@ -12,7 +12,7 @@ Pour déclarer une variable, on écrit caractère ```$``` suivi du nom de la var
 
 Par exemple : 
 
-```
+```php
 $test = 2;
 
 echo $test;
@@ -32,7 +32,7 @@ On peut aussi déclarer une valeur nulle, avec le type ```null```.
 
 On peut également déclarer des constantes : 
 
-```
+```php
 define("PI", 3.141592);
 
 echo PI;
@@ -40,7 +40,7 @@ echo PI;
 
 Les tableaux sont des collections de données ou de variables. Ils peuvent contenir tous les types de données, ou même un mix des types. Ils s'écrivent entre crochets, avec les données séparées par une virgule. Un tableau peut contenir d'autres tableaux. Par exemple :
 
-```
+```php
 $numbers = [2, 4, 6, 8];
 
 $mixed = ['texte', 2, true];

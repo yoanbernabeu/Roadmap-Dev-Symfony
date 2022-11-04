@@ -8,7 +8,7 @@ Quand on écrit du code PHP, on souhaite que celui-ci soit bien rangé. En effet
 
 Pour cela, on va utiliser ce qu'on appelle des espaces de noms, ou **namespace** en anglais. L'idée est de déclarer dans le fichier l'emplacement de la classe. Par exemple : 
 
-```
+```php
 <?php
 
 namespace App\Entity;
@@ -29,7 +29,7 @@ composer init
 
 Cela va créer un fichier ```composer.json``` à la racine du projet. Puis, dans ce fichier, vous rajoutez une clef ```autoload``` qui va indiquer le point d'entrée (ici, le dossier ```src```) :
 
-```
+```json
 "autoload": {
     "psr-4": {
         "App\\": "src/"
@@ -45,7 +45,7 @@ composer dump-autoload
 
 Vous pouvez maintenant utiliser l'autoloader. Par exemple, dans une autre classe, qui va utiliser la classe ```Video```, vous pouvez l'importer en utilise le mot clef ```use```, comme ceci : 
 
-```
+```php
 use App\Entity\Video;
 
 class VideoController 
