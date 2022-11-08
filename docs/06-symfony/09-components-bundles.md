@@ -6,7 +6,7 @@ sidebar_position: 9
 
 ## Composants
 
-Symfony n'est pas un framework comme les autres. Il est formé par des composants, qui, mis en relation les uns avec les autres, forment un framework. Vous pouvez créer un projet avec le minimum syndical, et rajouter des composants par la suite, vous créant ainsi un framwork sur mesure.
+Symfony n'est pas un framework comme les autres. Il est pensé comme des  des composants, qui, mis en relation les uns avec les autres, forment un framework. Vous pouvez créer un projet avec le minimum syndical, et rajouter des composants par la suite, vous créant ainsi un framework sur mesure.
 
 Nous avons déjà vu, sans forcément le mentionner, quelques uns des principaux composants de Symfony : le composant **routing** pour le routage, le composant **Twig** pour les templates, le composant **Form** pour les formulaires et le composant **Webpack-encore** pour la gestion du JS et du CSS.
 
@@ -25,9 +25,9 @@ Il existe plus d'une centaine de composants proposés par Symfony. Vous trouvere
 
 ## Bundles
 
-Symfony dispose d'un grand nombre de composants mais vous aurez peut-être des besoins spécifiques qu'aucun composant ne satisfait. Vous vous tournerez alors vers des librairies tierces. Celles qui sont faites pour s'intégrer dans Symfony s'appellent des **bundles**. On peut les retrouver sur [Packagist](https://packagist.org/).
+Symfony dispose d'un grand nombre de composants mais vous aurez peut-être des besoins spécifiques qu'aucun composant ne satisfait. Vous vous tournerez alors vers des librairies tierces. Celles qui sont faites pour s'intégrer facilement dans Symfony s'appellent des **bundles**. On peut les retrouver sur [Packagist](https://packagist.org/).
 
-Il en existe des dizaines, voire des centaines. En voici quelques uns qui pourraient vous interesser : 
+Il en existe des dizaines. En voici quelques uns qui pourraient vous interesser : 
 
 - [KnpPaginatorBundle](https://github.com/KnpLabs/KnpPaginatorBundle) pour gérer un système de pagination
 - [LiipImagineBundle](https://github.com/liip/LiipImagineBundle) pour manipuler des images (recadrage, redimensionnement, compression, etc.)
