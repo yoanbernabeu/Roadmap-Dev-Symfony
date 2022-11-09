@@ -49,8 +49,3 @@ Il en existe des dizaines. En voici quelques uns qui pourraient vous interesser 
 * [Apprendre utiliser LiipImagineBundle par Grafikart](https://grafikart.fr/tutoriels/upload-bundle-1073#autoplay)
 
 * [Apprendre utiliser EasyAdminBundle par Thomas Boileau](https://www.youtube.com/watch?v=IZGkhCFmxfY&ab_channel=Toham-ThomasBoileau)
-
-
-
-
-
