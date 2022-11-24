@@ -10,7 +10,7 @@ Pour écrire une condition, on utilise le mot-clé ```if```, suivi entre parenth
 
 Exemple :
 
-```
+```js
 if(age >= 18) {
     console.log('vous êtes majeur')
 }
@@ -22,7 +22,7 @@ On peut éventuellement ajouter un autre bout de code qui sera exécuté si la c
 
 Exemple :
 
-```
+```js
 if(age >= 18) {
     console.log('vous êtes majeur')
 } else {
@@ -36,7 +36,7 @@ On peut également utiliser une version raccourcie, qu'on appelle une ternaire p
 
 Exemple :
 
-```
+```js
 const phrase = 'Vous êtes ' + (age >= 18 ? 'majeur' : 'mineur')
 ```
 

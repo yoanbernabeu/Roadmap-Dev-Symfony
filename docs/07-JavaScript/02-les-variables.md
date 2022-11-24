@@ -14,7 +14,7 @@ Pour déclarer une variable, on écrit le mot-clé ```const``` ou ```let```, sui
 
 Par exemple : 
 
-```
+```js
 const PI = 3.141592
 
 let age = 32
@@ -29,11 +29,11 @@ Dans une variable, on peut ranger différents types de données :
  - des tableaux
  - des objets
 
- Si une variable a été déclarée mais ne contient pas de valeur, la valeur qui sera retournée sera de type ```undefined```. On peut aussi déclarer une valeur nulle, avec le type ```null```.
+Si une variable a été déclarée mais ne contient pas de valeur, la valeur qui sera retournée sera de type ```undefined```. On peut aussi déclarer une valeur nulle, avec le type ```null```.
 
- Les tableaux sont des collections de données ou de variables. Ils peuvent contenir tous les types de données, ou même un mix des types. Ils s'écrivent entre crochets, avec les données séparées par une virgule. Un tableau peut contenir d'autres tableaux. Par exemple :
+Les tableaux sont des collections de données ou de variables. Ils peuvent contenir tous les types de données, ou même un mix des types. Ils s'écrivent entre crochets, avec les données séparées par une virgule. Un tableau peut contenir d'autres tableaux. Par exemple :
 
-```
+```js
 const numbers = [2, 4, 6, 8]
 
 const mixed = ['texte', 2, true]
@@ -43,7 +43,7 @@ const array_in_array = [[0, 1], [2, 3]]
 
 Les objets sont une façon de représenter un objet abstrait qui dispose de propriétés, chacune ayant une valeur. Ils s'écrivent entre accolades, avec des couples proprité/valeur séparés par des virgules. On sépare la proprité de la valeur par un signe deux points. Par exemple :
 
-```
+```js
 const person = {
     first_name : 'John',
     last_name : 'Doe',

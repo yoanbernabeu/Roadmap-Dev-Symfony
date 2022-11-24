@@ -14,7 +14,7 @@ Les callback consistent en l'écriture d'une fonction qui prend elle même une f
 
 Imaginons que l'on souhaite exécuté une fonction qui attendrait 2 secondes puis retournerait un message. On pourrait écrire les choses comme suit : 
 
-```
+```js
 const wait = (duration, cb) => {
     setTimeOut(() => {
         cb()
@@ -38,7 +38,7 @@ Mais si on doit gérer plusieurs callback imbriqués, on va tomber dans ce qu'on
 
 Les promesses sont une autre façon de gérer le code asynchrone. Elle s'écrivent de la façon suivante :
 
-```
+```js
 const wait = (duration) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => resolve(duration), duration)
@@ -48,7 +48,7 @@ const wait = (duration) => {
 
 Ici, la fonction ```wait``` retourne une promesse, qui prend en paramètre deux callback. ```resolve``` sera appelé en cas de succès et ```reject``` en cas d'échec. On pourra alors apeller la fonction ```wait``` comme suit : 
 
-```
+```js
 wait(2000)
     .then((duration) => {
         console.log(`j'ai attendu ${duration}ms`)
@@ -60,7 +60,7 @@ wait(2000)
 
 L'avantage sur les callback est que si on renvoie une nouvelle promesse dans un ```then``` on peut alors enchainer les méthodes.
 
-```
+```js
 wait(2000)
     .then((duration) => {
         console.log(`j'ai attendu ${duration}ms`)
@@ -73,7 +73,7 @@ wait(2000)
 
 On peut aussi écrire les choses plus simplement avec les mots-clef ```async``` et ```await```. On déclarre une fonction comme asynchrone avec le mot-clef ```async```. Dans ce cas là, son retour sera une promesse. L'avantage, c'est qu'à l'interieur de cette fonction, on peut appeller une fonction qui retourne une promesse avec le mot clé ```await```. Le code qui suit attendra la résolution de la promesse pour être exécuté.
 
-```
+```js
 const wait = (duration) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => resolve(duration), duration)

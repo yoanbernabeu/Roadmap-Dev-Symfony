@@ -8,7 +8,7 @@ Il serait bien difficule de décrire en totalité les principes de la programmat
 
 Imaginons que vous travailliez sur un annuaire. Vous allez donc devoir gérer des personnes. Chacune aura par exemple un nom, un prénom et un email. C'est l'occasion de ce créer un type d'objet dédié, en écrivant ce qu'on appelle une classe.
 
-```
+```js
 class Person {
     
     firstname = ''
@@ -25,7 +25,7 @@ class Person {
 
 Dans cette classe, on définit des propriété, auxquelles on assigne une valeur par défaut, puis grâce à la méthode ```constructor``` on assigne les données reçues à la construction. Quand on va construire un objet ```Person```, on le fera comme ceci :
 
-```
+```js
 const personne = new Person('John', 'Doe', 'john.doe@gmail.com')
 ```
 
@@ -33,7 +33,7 @@ On pourra accéder aux proprités de l'objet comme avec n'importe quel objet lit
 
 On peut aussi écrire des méthodes dans notre classe. Par exemple, rajoutons une méthode qui renverra une chaine formatée pour afficher la personne :
 
-```
+```js
 class Person {
     
     firstname = ''
@@ -47,7 +47,7 @@ class Person {
     }
 
     getFormated() {
-        return `${this.firstName} ${this.firstName} : ${this.email}` 
+        return `${this.firstName} ${this.lastname} : ${this.email}` 
     }
 }
 ```
