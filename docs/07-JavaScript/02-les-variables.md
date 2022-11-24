@@ -29,9 +29,9 @@ Dans une variable, on peut ranger différents types de données :
  - des tableaux
  - des objets
 
- Si une variable a été déclarée mais ne contient pas de valeur, la valeur qui sera retournée sera de type ```undefined```. On peut aussi déclarer une valeur nulle, avec le type ```null```.
+Si une variable a été déclarée mais ne contient pas de valeur, la valeur qui sera retournée sera de type ```undefined```. On peut aussi déclarer une valeur nulle, avec le type ```null```.
 
- Les tableaux sont des collections de données ou de variables. Ils peuvent contenir tous les types de données, ou même un mix des types. Ils s'écrivent entre crochets, avec les données séparées par une virgule. Un tableau peut contenir d'autres tableaux. Par exemple :
+Les tableaux sont des collections de données ou de variables. Ils peuvent contenir tous les types de données, ou même un mix des types. Ils s'écrivent entre crochets, avec les données séparées par une virgule. Un tableau peut contenir d'autres tableaux. Par exemple :
 
 ```js
 const numbers = [2, 4, 6, 8]
