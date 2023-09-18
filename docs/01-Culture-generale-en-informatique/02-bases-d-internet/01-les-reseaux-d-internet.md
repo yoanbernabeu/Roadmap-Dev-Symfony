@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Internet c'est un réseau, ou plutôt ce sont DES réseaux.
 
-Prenez le temps de (re)découvrir l'histoire d'internet et de ces réseaux, ceux sont des connaissances fondamentales pour celui ou celle qui veux bosser dans le web !
+Prenez le temps de (re)découvrir l'histoire d'internet et de ces réseaux, ce sont des connaissances fondamentales pour celui ou celle qui veux bosser dans le web !
 
 
 * [Texte - Au fait, pourquoi le web s’appelle le web ?](https://www.numerama.com/tech/470711-au-fait-pourquoi-le-web-sappelle-le-web.html)
